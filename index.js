@@ -13,7 +13,15 @@ app.use(methodOverride('_method'));
 
 
 app.get('/', (req, res) => {
-    res.send
+    res.send('hi')
+})
+
+app.post('/posts/new', (req, res) => {
+
+})
+
+app.get('/results', (req, res) => {
+
 })
 
 
